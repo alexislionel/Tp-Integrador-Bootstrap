@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*---- NAVBAR ----*/
+
+.bgGrey {
+    background: #353a40;
+}
+
+/*---- HERO ----*/
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/hawaii.jpg");
+    max-width: 100%;
+    height: 56vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.hero-text p {
+    line-height: 26px;
+}
+
+
+.text-sub {
+    text-align: center;
+}
+
+
+/*---- CARDS ----*/
+
+.lenguajes {
+    font-size: smaller;
+}
+
+
+/*---- FORM ----*/
+
+.subrayado {
+    border-bottom: 1px dotted black;
+}
+
+.txtad {
+    font-size: smaller;
+    color: grey;
+}
+
+.bgSm {
+    background: #96c93e;
+}
+
+
+/*---- FOOTER ----*/
+
+.bgFt {
+    background: linear-gradient(to right, #1d3744, #1e5371)
+}
+
+.bgFt a {
+    text-decoration: none;
+    color: white;
+}
